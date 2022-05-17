@@ -5884,11 +5884,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yunus\\source\\repos\\UserMembership\\UserMembership.Repository\\UserMembership.Repository.csproj",
+      "projectUniqueName": "C:\\Users\\yunus\\Desktop\\UserMembership\\UserMembership.Repository\\UserMembership.Repository.csproj",
       "projectName": "UserMembership.Repository",
-      "projectPath": "C:\\Users\\yunus\\source\\repos\\UserMembership\\UserMembership.Repository\\UserMembership.Repository.csproj",
+      "projectPath": "C:\\Users\\yunus\\Desktop\\UserMembership\\UserMembership.Repository\\UserMembership.Repository.csproj",
       "packagesPath": "C:\\Users\\yunus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yunus\\source\\repos\\UserMembership\\UserMembership.Repository\\obj\\",
+      "outputPath": "C:\\Users\\yunus\\Desktop\\UserMembership\\UserMembership.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -5909,8 +5909,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\yunus\\source\\repos\\UserMembership\\UserMembership.Data\\UserMembership.Data.csproj": {
-              "projectPath": "C:\\Users\\yunus\\source\\repos\\UserMembership\\UserMembership.Data\\UserMembership.Data.csproj"
+            "C:\\Users\\yunus\\Desktop\\UserMembership\\UserMembership.Data\\UserMembership.Data.csproj": {
+              "projectPath": "C:\\Users\\yunus\\Desktop\\UserMembership\\UserMembership.Data\\UserMembership.Data.csproj"
             }
           }
         }

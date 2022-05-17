@@ -5962,11 +5962,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yunus\\source\\repos\\UserMembership\\UserMembership.Data\\UserMembership.Data.csproj",
+      "projectUniqueName": "C:\\Users\\yunus\\Desktop\\UserMembership\\UserMembership.Data\\UserMembership.Data.csproj",
       "projectName": "UserMembership.Data",
-      "projectPath": "C:\\Users\\yunus\\source\\repos\\UserMembership\\UserMembership.Data\\UserMembership.Data.csproj",
+      "projectPath": "C:\\Users\\yunus\\Desktop\\UserMembership\\UserMembership.Data\\UserMembership.Data.csproj",
       "packagesPath": "C:\\Users\\yunus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yunus\\source\\repos\\UserMembership\\UserMembership.Data\\obj\\",
+      "outputPath": "C:\\Users\\yunus\\Desktop\\UserMembership\\UserMembership.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
