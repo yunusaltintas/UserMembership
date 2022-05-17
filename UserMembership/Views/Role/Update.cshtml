@@ -1,0 +1,15 @@
+﻿@model UserMembership.Data.Models.RoleUpdateViewModel
+
+<h3>Update Role</h3>
+
+<form asp-action="Update" asp-controller="Role" method="post">
+    @Html.HiddenFor(x => x.Id)
+
+    <div class="form-group">
+        <label for="exampleInputEmail1">Name</label>
+        <input type="text" asp-for="@Model.Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+        <small id="emailHelp" class="form-text text-muted"></small>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

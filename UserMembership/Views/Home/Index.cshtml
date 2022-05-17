@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Yunus Emre Altıntaş</p>
+</div>
+
+
+@if (User.IsInRole("Admin") || User.IsInRole("Manager"))
+{
+    <a class="btn btn-info" asp-controller="CompanyInvitation" asp-action="Index">CompanyInvitation</a>
+}
+
+

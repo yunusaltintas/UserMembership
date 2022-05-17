@@ -1,0 +1,14 @@
+C:\Users\yunus\source\repos\UserMembership\UserMembership.Service\bin\Debug\netcoreapp3.1\UserMembership.Service.deps.json
+C:\Users\yunus\source\repos\UserMembership\UserMembership.Service\bin\Debug\netcoreapp3.1\UserMembership.Service.dll
+C:\Users\yunus\source\repos\UserMembership\UserMembership.Service\bin\Debug\netcoreapp3.1\UserMembership.Service.pdb
+C:\Users\yunus\source\repos\UserMembership\UserMembership.Service\bin\Debug\netcoreapp3.1\UserMembership.Data.dll
+C:\Users\yunus\source\repos\UserMembership\UserMembership.Service\bin\Debug\netcoreapp3.1\UserMembership.Repository.dll
+C:\Users\yunus\source\repos\UserMembership\UserMembership.Service\bin\Debug\netcoreapp3.1\UserMembership.Repository.pdb
+C:\Users\yunus\source\repos\UserMembership\UserMembership.Service\bin\Debug\netcoreapp3.1\UserMembership.Data.pdb
+C:\Users\yunus\source\repos\UserMembership\UserMembership.Service\obj\Debug\netcoreapp3.1\UserMembership.Service.csprojAssemblyReference.cache
+C:\Users\yunus\source\repos\UserMembership\UserMembership.Service\obj\Debug\netcoreapp3.1\UserMembership.Service.AssemblyInfoInputs.cache
+C:\Users\yunus\source\repos\UserMembership\UserMembership.Service\obj\Debug\netcoreapp3.1\UserMembership.Service.AssemblyInfo.cs
+C:\Users\yunus\source\repos\UserMembership\UserMembership.Service\obj\Debug\netcoreapp3.1\UserMembership.Service.csproj.CoreCompileInputs.cache
+C:\Users\yunus\source\repos\UserMembership\UserMembership.Service\obj\Debug\netcoreapp3.1\UserMembership.Service.csproj.CopyComplete
+C:\Users\yunus\source\repos\UserMembership\UserMembership.Service\obj\Debug\netcoreapp3.1\UserMembership.Service.dll
+C:\Users\yunus\source\repos\UserMembership\UserMembership.Service\obj\Debug\netcoreapp3.1\UserMembership.Service.pdb

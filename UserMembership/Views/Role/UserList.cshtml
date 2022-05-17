@@ -1,0 +1,32 @@
+﻿@model List<UserMembership.Data.AppUser>
+
+<h3>User List</h3>
+
+<div class="row mt-2">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Company Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th scope="row">@item.Id</th>
+                    <th>@item.UserName</th>
+                    <th>@item.CompanyID</th>
+
+                    <td><a asp-controller="CompanyInvitation" asp-action="AssignCompany" asp-route-id="@item.Id">Company Assign</a></td>
+
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <td><a asp-controller="Role" asp-action="AssignRole" asp-route-id="@item.Id">Role Assign</a></td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

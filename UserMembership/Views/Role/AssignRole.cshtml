@@ -1,0 +1,26 @@
+﻿@model UserMembership.Data.Models.RoleAssignViewModel
+
+<h3>Assign Role To User</h3>
+
+
+<form asp-action="AssignRole" asp-controller="Role" method="post">
+    @Html.HiddenFor(x => x.UserId)
+
+
+
+    @for (int i = 0; i < Model.RoleAssign.Count; i++)
+    {
+        <div class="form-group form-check">
+
+            @Html.HiddenFor(x => x.RoleAssign[i].RoleId)
+            @Html.HiddenFor(x => x.RoleAssign[i].Name)
+            <input type="checkbox" asp-for="@Model.RoleAssign[i].IsExist" class="form-check-input" />
+            <label class="form-check-label" for="@Model.RoleAssign[i].IsExist">@Model.RoleAssign[i].Name</label>
+        </div>
+    }
+    <br />
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<br />
+
+<a class="btn btn-info" asp-controller="Role" asp-action="UserList">Return User List</a>

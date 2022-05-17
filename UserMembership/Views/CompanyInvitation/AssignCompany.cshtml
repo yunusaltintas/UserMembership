@@ -1,0 +1,24 @@
+﻿@model UserMembership.ViewModels.CompanyAssignnViewModel
+
+<h3>Assign Company To User</h3>
+
+
+<form asp-action="AssignCompany" asp-controller="CompanyInvitation" method="post">
+    @Html.HiddenFor(x => x.UserId)
+    @Html.HiddenFor(x => x.UserName)
+
+    <div class="form-group">
+
+        <label class="form-text" for="@Model.UserName">@Model.UserName</label>
+
+        <select data-placeholder="deneme" asp-for="SelectedCompanyId"
+                asp-items="Model.Companies">
+            <option>Please select one</option>
+        </select>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<br />
+
+<a class="btn btn-info" asp-controller="Role" asp-action="UserList">Return User List</a>
